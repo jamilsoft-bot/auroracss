@@ -1,0 +1,73 @@
+:root,
+[data-theme='light'] {
+  --aurora-color-bg: #ffffff;
+  --aurora-color-surface: #f7f7f8;
+  --aurora-color-elevated: #ffffff;
+  --aurora-color-text: #111827;
+  --aurora-color-text-muted: #4b5563;
+  --aurora-color-border: #d4d6dc;
+  --aurora-color-primary: #2f86ff;
+  --aurora-color-primary-hover: #1f6de6;
+  --aurora-color-primary-pressed: #1d57b4;
+  --aurora-color-secondary: #6b7280;
+  --aurora-color-success: #1f9d6a;
+  --aurora-color-warning: #f59e0b;
+  --aurora-color-danger: #ef4444;
+  --aurora-color-info: #2563eb;
+  --aurora-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
+  --aurora-shadow-md: 0 8px 20px rgba(15, 23, 42, 0.12);
+  --aurora-shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.16);
+  --aurora-shadow-focus: 0 0 0 3px rgba(47, 134, 255, 0.35);
+  --aurora-font-sans: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --aurora-font-mono: 'JetBrains Mono', 'SFMono-Regular', monospace;
+  --aurora-radius-sm: 0.25rem;
+  --aurora-radius-md: 0.5rem;
+  --aurora-radius-lg: 0.75rem;
+  --aurora-radius-pill: 999px;
+  --aurora-space-1: 0.25rem;
+  --aurora-space-2: 0.5rem;
+  --aurora-space-3: 0.75rem;
+  --aurora-space-4: 1rem;
+  --aurora-space-6: 1.5rem;
+  --aurora-space-8: 2rem;
+  --aurora-space-12: 3rem;
+  --aurora-space-16: 4rem;
+  --aurora-space-24: 6rem;
+  --aurora-motion-fast: 150ms;
+  --aurora-motion-medium: 250ms;
+  --aurora-motion-slow: 400ms;
+  --aurora-motion-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+[data-theme='dark'] {
+  --aurora-color-bg: #0b0f17;
+  --aurora-color-surface: #111827;
+  --aurora-color-elevated: #1f2937;
+  --aurora-color-text: #f7f7f8;
+  --aurora-color-text-muted: #b0b4bf;
+  --aurora-color-border: #374151;
+  --aurora-color-primary: #5da7ff;
+  --aurora-color-primary-hover: #8cc7ff;
+  --aurora-color-primary-pressed: #b7ddff;
+  --aurora-color-secondary: #9ca3af;
+  --aurora-color-success: #4ade80;
+  --aurora-color-warning: #fbbf24;
+  --aurora-color-danger: #f87171;
+  --aurora-color-info: #60a5fa;
+  --aurora-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.45);
+  --aurora-shadow-md: 0 8px 20px rgba(15, 23, 42, 0.55);
+  --aurora-shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.6);
+  --aurora-shadow-focus: 0 0 0 3px rgba(93, 167, 255, 0.35);
+}
+
+[data-brand='ember'] {
+  --aurora-color-primary: #ff5b1f;
+  --aurora-color-primary-hover: #e34914;
+  --aurora-color-primary-pressed: #b9360d;
+}
+
+[data-brand='forest'] {
+  --aurora-color-primary: #2d906c;
+  --aurora-color-primary-hover: #207459;
+  --aurora-color-primary-pressed: #1d5c48;
+}

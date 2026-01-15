@@ -1,0 +1,11 @@
+{
+  "name": "@aurora/utils",
+  "version": "0.1.0",
+  "main": "src/utilities.css",
+  "files": ["src"],
+  "scripts": {
+    "build": "echo 'no build yet'",
+    "lint": "echo 'no lint yet'",
+    "format": "echo 'no format yet'"
+  }
+}

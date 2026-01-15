@@ -1,0 +1,14 @@
+{
+  "name": "@aurora/core",
+  "version": "0.1.0",
+  "main": "dist/aurora.css",
+  "files": ["dist"],
+  "scripts": {
+    "build": "cp src/aurora.css dist/aurora.css",
+    "lint": "echo 'no lint yet'",
+    "format": "echo 'no format yet'"
+  },
+  "dependencies": {
+    "@aurora/tokens": "0.1.0"
+  }
+}

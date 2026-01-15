@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" data-theme="light" data-brand="forest">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora Admin</title>
+    <link rel="stylesheet" href="../../packages/tokens/tokens.css" />
+    <link rel="stylesheet" href="../../packages/core/dist/aurora.css" />
+    <link rel="stylesheet" href="../../packages/utils/src/utilities.css" />
+  </head>
+  <body>
+    <div class="u-flex">
+      <aside class="aurora-sidebar">
+        <div class="aurora-sidebar-header">Admin</div>
+        <div class="aurora-sidebar-content">
+          <a href="#">Overview</a>
+          <a href="#">Customers</a>
+          <a href="#">Orders</a>
+          <a href="#">Reports</a>
+        </div>
+        <div class="aurora-sidebar-footer">Settings</div>
+      </aside>
+      <main style="flex: 1; padding: 2rem;">
+        <div class="u-flex u-space-between u-center">
+          <div>
+            <h1 style="margin: 0;">Dashboard</h1>
+            <p class="u-text-muted">Welcome back, Aurora admin.</p>
+          </div>
+          <button class="aurora-btn">New report</button>
+        </div>
+        <section class="aurora-grid-3" style="margin-top: 2rem;">
+          <div class="aurora-card">
+            <p class="u-text-muted">Monthly revenue</p>
+            <h2>$89,432</h2>
+          </div>
+          <div class="aurora-card">
+            <p class="u-text-muted">Active users</p>
+            <h2>12,480</h2>
+          </div>
+          <div class="aurora-card">
+            <p class="u-text-muted">Churn</p>
+            <h2>1.8%</h2>
+          </div>
+        </section>
+        <section style="margin-top: 2rem;">
+          <h3>Recent activity</h3>
+          <table class="aurora-table">
+            <thead>
+              <tr>
+                <th>Customer</th>
+                <th>Status</th>
+                <th>Plan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nova Tech</td>
+                <td><span class="aurora-badge">Active</span></td>
+                <td>Enterprise</td>
+              </tr>
+              <tr>
+                <td>Helios Labs</td>
+                <td><span class="aurora-badge">Active</span></td>
+                <td>Pro</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

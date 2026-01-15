@@ -1,0 +1,17 @@
+{
+  "name": "aurora-design-system",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format",
+    "storybook": "pnpm --filter @aurora/docs storybook",
+    "docs": "pnpm --filter @aurora/docs dev",
+    "demo": "pnpm --filter @aurora/demo dev"
+  }
+}

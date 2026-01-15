@@ -1,0 +1,14 @@
+.aurora-pad-2 { padding: var(--aurora-space-2); }
+.aurora-pad-4 { padding: var(--aurora-space-4); }
+.aurora-pad-6 { padding: var(--aurora-space-6); }
+.aurora-stack-2 { display: grid; gap: var(--aurora-space-2); }
+.aurora-stack-4 { display: grid; gap: var(--aurora-space-4); }
+.aurora-grid-2 { display: grid; gap: var(--aurora-space-4); grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.aurora-grid-3 { display: grid; gap: var(--aurora-space-4); grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.aurora-text-xs { font-size: 0.75rem; }
+.aurora-text-sm { font-size: 0.875rem; }
+.aurora-text-lg { font-size: 1.125rem; }
+.aurora-text-xl { font-size: 1.25rem; }
+.aurora-w-full { width: 100%; }
+.aurora-max-w-md { max-width: 28rem; }
+.aurora-center { margin-left: auto; margin-right: auto; }

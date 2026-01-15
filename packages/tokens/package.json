@@ -1,0 +1,12 @@
+{
+  "name": "@aurora/tokens",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "tokens.json", "tokens.css"],
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "lint": "echo 'no lint yet'",
+    "format": "echo 'no format yet'"
+  }
+}

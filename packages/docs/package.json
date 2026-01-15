@@ -1,0 +1,15 @@
+{
+  "name": "@aurora/docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'docs dev server placeholder'",
+    "build": "echo 'docs build placeholder'",
+    "storybook": "echo 'storybook placeholder'"
+  },
+  "dependencies": {
+    "@aurora/core": "0.1.0",
+    "@aurora/tokens": "0.1.0",
+    "@aurora/react": "0.1.0"
+  }
+}

@@ -1,7 +1,6 @@
-import fs from 'node:fs';
-import path from 'node:path';
+const fs = require('node:fs');
+const path = require('node:path');
 
-const root = path.resolve(process.cwd(), '..');
 const src = path.resolve(process.cwd(), 'tokens.json');
 const outDir = path.resolve(process.cwd(), 'dist');
 const outFile = path.resolve(outDir, 'index.js');

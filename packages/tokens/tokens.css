@@ -6,6 +6,8 @@
   --aurora-color-text: #111827;
   --aurora-color-text-muted: #4b5563;
   --aurora-color-border: #d4d6dc;
+  --aurora-color-border-muted: #e5e7eb;
+  --aurora-color-border-strong: #9ca3af;
   --aurora-color-primary: #2f86ff;
   --aurora-color-primary-hover: #1f6de6;
   --aurora-color-primary-pressed: #1d57b4;
@@ -14,29 +16,59 @@
   --aurora-color-warning: #f59e0b;
   --aurora-color-danger: #ef4444;
   --aurora-color-info: #2563eb;
+  --aurora-color-success-surface: #e6f6ef;
+  --aurora-color-warning-surface: #fff4d6;
+  --aurora-color-danger-surface: #feecec;
+  --aurora-color-info-surface: #e6efff;
   --aurora-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
   --aurora-shadow-md: 0 8px 20px rgba(15, 23, 42, 0.12);
   --aurora-shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.16);
+  --aurora-shadow-xl: 0 24px 60px rgba(15, 23, 42, 0.2);
   --aurora-shadow-focus: 0 0 0 3px rgba(47, 134, 255, 0.35);
+  --aurora-focus-ring: 0 0 0 3px rgba(47, 134, 255, 0.35);
   --aurora-font-sans: 'Inter', 'Segoe UI', system-ui, sans-serif;
   --aurora-font-mono: 'JetBrains Mono', 'SFMono-Regular', monospace;
+  --aurora-border-width-1: 1px;
+  --aurora-border-width-2: 2px;
+  --aurora-border-width-3: 3px;
+  --aurora-border-hairline: 1px;
+  --aurora-border-thin: 1px;
+  --aurora-border-medium: 2px;
+  --aurora-border-thick: 3px;
+  --aurora-radius-xs: 0.125rem;
   --aurora-radius-sm: 0.25rem;
   --aurora-radius-md: 0.5rem;
   --aurora-radius-lg: 0.75rem;
+  --aurora-radius-xl: 1rem;
+  --aurora-radius-2xl: 1.25rem;
   --aurora-radius-pill: 999px;
+  --aurora-space-0: 0;
   --aurora-space-1: 0.25rem;
   --aurora-space-2: 0.5rem;
   --aurora-space-3: 0.75rem;
   --aurora-space-4: 1rem;
+  --aurora-space-5: 1.25rem;
   --aurora-space-6: 1.5rem;
+  --aurora-space-7: 1.75rem;
   --aurora-space-8: 2rem;
+  --aurora-space-9: 2.25rem;
+  --aurora-space-10: 2.5rem;
   --aurora-space-12: 3rem;
+  --aurora-space-14: 3.5rem;
   --aurora-space-16: 4rem;
+  --aurora-space-18: 4.5rem;
   --aurora-space-24: 6rem;
+  --aurora-space-32: 8rem;
   --aurora-motion-fast: 150ms;
   --aurora-motion-medium: 250ms;
   --aurora-motion-slow: 400ms;
   --aurora-motion-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --aurora-disabled-opacity: 0.5;
+  --aurora-breakpoint-sm: 640px;
+  --aurora-breakpoint-md: 768px;
+  --aurora-breakpoint-lg: 1024px;
+  --aurora-breakpoint-xl: 1280px;
+  --aurora-breakpoint-2xl: 1440px;
 }
 
 [data-theme='dark'] {
@@ -46,6 +78,8 @@
   --aurora-color-text: #f7f7f8;
   --aurora-color-text-muted: #b0b4bf;
   --aurora-color-border: #374151;
+  --aurora-color-border-muted: #2b3544;
+  --aurora-color-border-strong: #6b7280;
   --aurora-color-primary: #5da7ff;
   --aurora-color-primary-hover: #8cc7ff;
   --aurora-color-primary-pressed: #b7ddff;
@@ -54,10 +88,16 @@
   --aurora-color-warning: #fbbf24;
   --aurora-color-danger: #f87171;
   --aurora-color-info: #60a5fa;
+  --aurora-color-success-surface: #123b2b;
+  --aurora-color-warning-surface: #3b2f12;
+  --aurora-color-danger-surface: #3b1b1b;
+  --aurora-color-info-surface: #132447;
   --aurora-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.45);
   --aurora-shadow-md: 0 8px 20px rgba(15, 23, 42, 0.55);
   --aurora-shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.6);
+  --aurora-shadow-xl: 0 24px 60px rgba(15, 23, 42, 0.65);
   --aurora-shadow-focus: 0 0 0 3px rgba(93, 167, 255, 0.35);
+  --aurora-focus-ring: 0 0 0 3px rgba(93, 167, 255, 0.35);
 }
 
 [data-brand='ember'] {

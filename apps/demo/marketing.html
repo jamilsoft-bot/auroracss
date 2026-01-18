@@ -46,6 +46,56 @@
           <p class="u-text-muted">Styled defaults with headless flexibility.</p>
         </div>
       </section>
+      <section class="aurora-stack" style="margin-top: 3rem;">
+        <h2 style="margin: 0;">Component previews</h2>
+        <div class="aurora-grid-3">
+          <div class="aurora-card aurora-stack">
+            <h3 style="margin: 0;">Buttons</h3>
+            <div class="u-flex u-gap-2 u-center" style="flex-wrap: wrap;">
+              <button class="aurora-btn">Primary</button>
+              <button class="aurora-btn secondary">Secondary</button>
+              <button class="aurora-btn ghost">Ghost</button>
+              <button class="aurora-btn success">Success</button>
+              <button class="aurora-btn danger">Danger</button>
+              <button class="aurora-btn outline">Outline</button>
+              <button class="aurora-btn icon-only" aria-label="Favorite">
+                <span class="aurora-btn-icon">★</span>
+              </button>
+              <button class="aurora-btn" data-state="loading">
+                <span class="aurora-btn-label">Loading</span>
+                <span class="aurora-btn-spinner" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+          <div class="aurora-card aurora-stack">
+            <h3 style="margin: 0;">Text fields</h3>
+            <div class="aurora-field">
+              <label class="aurora-field-label" for="email-preview">Email</label>
+              <input class="aurora-input" id="email-preview" type="email" placeholder="you@aurora.dev" />
+              <span class="aurora-field-help">We only use this for account recovery.</span>
+            </div>
+            <div class="aurora-field" data-state="error">
+              <label class="aurora-field-label" for="email-error-preview">Email</label>
+              <input class="aurora-input is-invalid" id="email-error-preview" type="email" placeholder="you@aurora.dev" />
+              <span class="aurora-field-error">Please enter a valid email.</span>
+            </div>
+          </div>
+          <div class="aurora-card aurora-stack">
+            <h3 style="margin: 0;">Dialog layout</h3>
+            <div class="aurora-modal" style="position: static; width: 100%; padding: 1.5rem;">
+              <div class="aurora-modal-header">
+                <h3 class="aurora-modal-title">New project</h3>
+                <button class="aurora-btn ghost sm" aria-label="Close modal">Close</button>
+              </div>
+              <div class="aurora-modal-description">Name the project and pick a template.</div>
+              <div class="aurora-modal-footer">
+                <button class="aurora-btn secondary">Cancel</button>
+                <button class="aurora-btn">Create</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

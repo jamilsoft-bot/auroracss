@@ -7,6 +7,7 @@ export * from './components/Card';
 export * from './components/Checkbox';
 export * from './components/Drawer';
 export * from './components/Input';
+export * from './components/TextField';
 export * from './components/Modal';
 export * from './components/Navbar';
 export * from './components/Pagination';
